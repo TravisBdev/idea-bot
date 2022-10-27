@@ -13,17 +13,38 @@ body{
   display: flex;
   align-items: center;
   justify-content: center;
+  background-color: #A8DADC;
 }
 
 .main-container{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
   max-width: 500px;
   width: 45%;
-  border: 1px solid fuchsia;
-  border-radius: 10px;
+  height: 50vh;
+  border-radius: 10%;
   text-align: center;
   margin-top: 10%;
+  padding: 1rem;
+  background-color: #457B9D;;
+}
+
+.welcome-title{
+  color: #F1FAEE
+}
+
+.idea-description{
+  color: #F1FAEE;
 }
 
 .idea-btn{
   cursor: pointer;
+  width: 6rem;
+  height: 4rem;
+  font-size: 1.3em;
+  background-color: #E63946;
+  border: none;
+  border-radius: 15%;
 }
